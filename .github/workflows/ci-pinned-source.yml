@@ -1,0 +1,70 @@
+name: MMD Lab pinned source QA (CP01-CP10)
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  synthetic:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rehydrate exact pinned EOL bytes in ephemeral CI workspace
+        shell: pwsh
+        run: |
+          @'
+          from pathlib import Path
+          import hashlib, json
+          from cp10.repo_export import PINS, CP10_MANIFEST, safe_relative, pinned_file_inventory
+          root = Path.cwd()
+          cp10_sha = "1aecc64ccc9a700b67c9099e5cad2624e1e242300b00ea5f3f0355a6ed3dd40e"
+          restored = []
+          def sha(data):
+              return hashlib.sha256(data).hexdigest()
+          def ensure_pinned(path, expected):
+              rel = safe_relative(path)
+              target = root / rel
+              if target.is_symlink() or not target.is_file():
+                  raise RuntimeError("HOLD_MISSING_OR_SYMLINK " + rel)
+              raw = target.read_bytes()
+              if sha(raw) == expected:
+                  return
+              lf = raw.replace(b"\r\n", b"\n")
+              variants = (lf, lf.replace(b"\n", b"\r\n"))
+              matches = [b for b in variants if sha(b) == expected]
+              if len(matches) != 1 or matches[0] == raw:
+                  raise RuntimeError("HOLD_NON_EOL_PIN_DRIFT " + rel)
+              target.write_bytes(matches[0])
+              restored.append(rel)
+          for cp, manifest, pinned_sha, count in (*PINS, ("CP10", CP10_MANIFEST, cp10_sha, 9)):
+              ensure_pinned(manifest, pinned_sha)
+              data = json.loads((root / manifest).read_bytes())
+              entries = data["files"]
+              if len(entries) != count:
+                  raise RuntimeError("HOLD_MANIFEST_COUNT " + cp)
+              for item in entries:
+                  ensure_pinned(item["path"], item["sha256"])
+          files = pinned_file_inventory(root)
+          if len(files) != 132:
+              raise RuntimeError("HOLD_SOURCE_COUNT")
+          print("CI_PINNED_SOURCE_PASS=132/132; EOL_RESTORED=" + str(len(restored)))
+          '@ | python -
+      - name: Install core package
+        run: python -m pip install -e .
+      - name: All checkpoint suites (CI-only)
+        shell: pwsh
+        run: |
+          python -m unittest discover -s tests -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          foreach ($cp in 2..10) {
+            $suite = 'cp{0:D2}/tests' -f $cp
+            python -m unittest discover -s $suite -v
+            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }
+      - name: Unified API smoke
+        run: python -m cp09.cli readiness
+      - name: CP10 source pin audit
+        run: python -m cp10.cli audit
