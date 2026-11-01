@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' qrc:; style-src 'self'; img-src 'self' data:; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'"/>
+<title>MMD Lab CP02 | Anime Studio</title>
+<link rel="stylesheet" href="style.css"/>
+<script src="qrc:///qtwebchannel/qwebchannel.js" defer></script>
+<script src="app.js" defer></script>
+</head><body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="glyph">✦</div><div><b>ANIME MMD</b><small>STUDIO / LAB</small></div></div>
+    <div class="group-label">WORKSPACES</div>
+    <nav aria-label="Workspace"><button class="nav active" data-view="overview">◈ &nbsp; Overview</button><button class="nav" data-view="doctor">◇ &nbsp; MMD Doctor</button><button class="nav" data-view="motion">▶ &nbsp; Motion Peek</button><button class="nav" data-view="extensions">▧ &nbsp; Extensions</button></nav>
+    <div class="sidebar-bottom"><div class="safe-dot"></div><div><b>Offline workspace</b><small>CP02 · Synthetic fixtures only</small></div></div>
+  </aside>
+  <main>
+    <header><div class="crumb">MMD Anime Studio <span>/</span> MMD Lab <span>/</span> CP02</div><span class="pill">READ-ONLY PREVIEW</span></header>
+    <div class="main-content">
+      <div class="eyebrow">EXTENSION WORKSPACE · FOUNDATION PREVIEW</div>
+      <div class="hero"><div><h1 id="page-title">Your toolkit, one studio.</h1><p id="page-subtitle">Explore trusted model and motion diagnostics in a dedicated workspace.</p></div><div class="hero-mark">✧</div></div>
+      <div class="summary"><div><small>BUILT-IN EXTENSIONS</small><strong id="plugin-count">02</strong><span>Allowlisted & reviewed</span></div><div><small>INPUT POLICY</small><strong>SYNTHETIC</strong><span>External files denied</span></div><div><small>CORE STATUS</small><strong id="core-status">CONNECTING</strong><span>Python 3.12 foundation</span></div></div>
+      <div class="workspace">
+        <section class="tool-panel">
+          <div class="section-title"><div><span class="overline">QUICK ACTIONS</span><h2>Inspect demo assets</h2></div><span class="subtle">No writes</span></div>
+          <p class="section-copy">Use only the bundled synthetic PMX or VMD. The original model and motion files are never modified.</p>
+          <div class="actions"><button id="demo-pmx" disabled>◇ &nbsp; Run MMD Doctor</button><button id="demo-vmd" class="secondary" disabled>▶ &nbsp; Inspect VMD motion</button></div>
+          <div class="report-head"><span>DIAGNOSTIC REPORT</span><span id="run-status">Waiting for Qt Bridge</span></div>
+          <div class="report" id="report" role="status"><div class="empty">Choose a synthetic demonstration above to inspect metadata and findings.</div></div>
+        </section>
+        <section class="extensions-panel">
+          <div class="section-title"><div><span class="overline">TRUSTED MODULES</span><h2>Extension manager</h2></div></div>
+          <p class="section-copy">Session-only enable / disable. No external plugins or code execution.</p>
+          <div id="extensions"><div class="skeleton">Connecting to Python core…</div></div>
+          <div class="notice"><b>Safety boundary</b><p>CP01 core remains unchanged. External assets, animation editing, model export, internet requests and arbitrary plugin loading are not enabled in CP02.</p></div>
+        </section>
+      </div>
+      <footer><span>LAB-CP02 · PYTHON / QT WEBCHANNEL / HTML</span><span>Independent of MMD Studio CP20</span></footer>
+    </div>
+  </main>
+</div>
+</body></html>

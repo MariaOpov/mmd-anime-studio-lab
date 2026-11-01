@@ -1,0 +1,125 @@
+{
+  "checkpoint": "LAB_CP01",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 111,
+      "sha256": "b9f466a2658312b4fd6a006b8e6342b43a5250122c4269d5a76a8ec4c23dcfbb"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 513,
+      "sha256": "8dae3cce44521a1e30abb6cde5789d537684bc9a3c92559e7826c7b0a75cc0c6"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 345,
+      "sha256": "5d25a622755f7758a906187a97e9575e8eba25fb548f0f4a120de92537aef8d9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3760,
+      "sha256": "cf2cf2cf1cee725257a1ae44d24a0bfc306438c393e8dc33de6f67389929536e"
+    },
+    {
+      "path": "RUN_CP01_PREFLIGHT.cmd",
+      "bytes": 290,
+      "sha256": "f91981fc52c73a31c27fd4a640cf2fc555e4bacb67a5a8dd8076d13fa98feb24"
+    },
+    {
+      "path": "RUN_CP01_QA.cmd",
+      "bytes": 276,
+      "sha256": "62edbe8747ffe35947a1fdac09882cfbf326c7a1ac7a2cd4ff0a5ac7955170f2"
+    },
+    {
+      "path": "RUN_MMD_LAB.cmd",
+      "bytes": 278,
+      "sha256": "14a541bd76679625e9c838b8744bc701cb0d1a370320812c41c02d30b6608bd8"
+    },
+    {
+      "path": "docs/BOUNDARIES.md",
+      "bytes": 1144,
+      "sha256": "e0105c189057ecaa4acbe9420bbe4d0b98e53605a5df0f938594c8c896d38a93"
+    },
+    {
+      "path": "docs/WORKERS.md",
+      "bytes": 1464,
+      "sha256": "c09ce6881d05b605a520866bd6260fdf69a9df66cdbc9f23df634b9e0155a64d"
+    },
+    {
+      "path": "launcher.py",
+      "bytes": 5494,
+      "sha256": "cca454b94925e1fca1d648baceee3f182956ac229e8d2a319cbb0be9a7665b55"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 918,
+      "sha256": "dd9ecfd94cf67dff4aed70da685808155c444c18c4d3a4c7eda308917eb8b9d4"
+    },
+    {
+      "path": "src/mmd_lab/__init__.py",
+      "bytes": 89,
+      "sha256": "dbf05a41e2840a47ecbd0e749f7fd34e270c03d4dab4223bd10116cf3b9c8ef5"
+    },
+    {
+      "path": "src/mmd_lab/__main__.py",
+      "bytes": 47,
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4"
+    },
+    {
+      "path": "src/mmd_lab/cli.py",
+      "bytes": 1650,
+      "sha256": "a8127174086f0cca69d014380bd2385a687c587b40884a10956d98ec4cb099be"
+    },
+    {
+      "path": "src/mmd_lab/core.py",
+      "bytes": 10189,
+      "sha256": "a5a7654ebe5e182e1295691d5868a0edede3c49e12906b7ae8be4dd247181578"
+    },
+    {
+      "path": "src/mmd_lab/demo_synthetic/READ_ME.txt",
+      "bytes": 186,
+      "sha256": "84cf80894cf85f9450daebb78da52d6d1eaa63a7487a00e02c39b18a60d1eafd"
+    },
+    {
+      "path": "src/mmd_lab/demo_synthetic/SYNTHETIC_DEMO.pmx",
+      "bytes": 149,
+      "sha256": "017a357d4eec6281bf92167973e52826f91902aa18d83d7fc1e64b2c57af2dd2"
+    },
+    {
+      "path": "src/mmd_lab/demo_synthetic/SYNTHETIC_DEMO.vmd",
+      "bytes": 453,
+      "sha256": "d1bef01ceb9a91a4df08d18ab96c94fafe8662fb32c7318f0262bbf70aa6bca5"
+    },
+    {
+      "path": "src/mmd_lab/extensions/model_doctor/extension.json",
+      "bytes": 333,
+      "sha256": "dc49c4bed4ae8baec2a0b2e68a5cde0b8399b4bc905447e2072b7438ff6f4d96"
+    },
+    {
+      "path": "src/mmd_lab/extensions/motion_peek/extension.json",
+      "bytes": 320,
+      "sha256": "ef52094b39c3b7314cddd4aa7a76c827aa4094300a726b6925c9f7130159a154"
+    },
+    {
+      "path": "src/mmd_lab/host.py",
+      "bytes": 2274,
+      "sha256": "42d29f094625a4fbe866f28c7622b027361ba1ed6ced0dfad73b45a07bca364c"
+    },
+    {
+      "path": "src/mmd_lab/ui.py",
+      "bytes": 7858,
+      "sha256": "59e402121f3209c9a587dadf61337ddda6d5a24d36ce02ad947be86a576cdd0e"
+    },
+    {
+      "path": "tests/test_cp01.py",
+      "bytes": 3448,
+      "sha256": "2e6f04bc7ced96ece7e1a15db9f289843f9ca6f750b2a40c0533fe14e3086fe5"
+    },
+    {
+      "path": "tests/test_lab.py",
+      "bytes": 8178,
+      "sha256": "3dab29b1e11a3c4ef7ded3c4a061a98772a5bb57042d0abb6cfc21c474b6f69b"
+    }
+  ]
+}

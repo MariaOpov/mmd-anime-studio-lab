@@ -1,0 +1,7 @@
+* text=auto
+*.cmd text eol=crlf
+*.py text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.pmx binary
+*.vmd binary

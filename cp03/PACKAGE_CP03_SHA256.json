@@ -1,0 +1,71 @@
+{
+  "checkpoint": "LAB_CP03",
+  "base_checkpoints": [
+    "LAB_CP01",
+    "LAB_CP02"
+  ],
+  "cp01_manifest_sha256": "dafb4eac987d6a3422df79c7d48e787a76dfafd70dcd5841bb9a252b00ce4add",
+  "cp02_manifest_sha256": "44858f980df6fa150951d879506452ea995ae847717ee56551069c0b3b3ffe6f",
+  "files": [
+    {
+      "path": "RUN_CP03_DEMO.cmd",
+      "bytes": 130,
+      "sha256": "232605512d26de2219f9075b9a3ecce87198d40cd44f7c5158ffa168deac2e61"
+    },
+    {
+      "path": "RUN_CP03_QA.cmd",
+      "bytes": 128,
+      "sha256": "a37550c47d00cbdb811de01598780d2d45c3b9549eb11073bbcf026146641287"
+    },
+    {
+      "path": "cp03/README_CP03.txt",
+      "bytes": 1058,
+      "sha256": "277df9e1541c9820602760d61090377a682cf580708a80319f204435f99ce61c"
+    },
+    {
+      "path": "cp03/__init__.py",
+      "bytes": 120,
+      "sha256": "4686d5c6de2a1bc112a56f964b48b4ac28213fca07fba5aea4bbd403c4419491"
+    },
+    {
+      "path": "cp03/cli.py",
+      "bytes": 703,
+      "sha256": "de0369d8644f1a368fb2390de5abe260df9f38621b8cb316434a9e97af2e30b7"
+    },
+    {
+      "path": "cp03/fixtures/morph_demo.json",
+      "bytes": 506,
+      "sha256": "3c3c48b5daf000559a559a3e3eacf676a1739533161bea8bd80a5a498b082643"
+    },
+    {
+      "path": "cp03/morph.py",
+      "bytes": 4363,
+      "sha256": "bfa498ac5be07ac7f029ad2445f46c2f16da24c88374f1b1c7bd34aff3581121"
+    },
+    {
+      "path": "cp03/motion.py",
+      "bytes": 4340,
+      "sha256": "a3dd069a642e28cb2e1d988ea5b2d579099cc7be4e65b653d54807f1357bf95f"
+    },
+    {
+      "path": "cp03/runner.py",
+      "bytes": 4408,
+      "sha256": "4aa00323bee5aaeac00f37d06abc802e120f8e2a72dc60ee0074a97f37327005"
+    },
+    {
+      "path": "cp03/runtime.py",
+      "bytes": 1596,
+      "sha256": "b31cbd56f86b4c0652146e246b6f54b12c0723c1a91b1230431697d2c2c27454"
+    },
+    {
+      "path": "cp03/tests/__init__.py",
+      "bytes": 64,
+      "sha256": "d05c2d9c622860f9a0b0cabe489aa0b648f86f1c9c1d9ae657643bbaf0a84021"
+    },
+    {
+      "path": "cp03/tests/test_cp03.py",
+      "bytes": 7427,
+      "sha256": "e2a091731566bca7ad88cb5db694daaa5c2cd04907d9f73790aefa969435bf69"
+    }
+  ]
+}

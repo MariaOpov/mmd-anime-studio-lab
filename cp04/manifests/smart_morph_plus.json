@@ -1,0 +1,11 @@
+{
+  "id": "org.mmdstudio.smart-morph-plus",
+  "name": "Smart Morph+",
+  "version": "0.4.0-dev",
+  "api_version": "0.1",
+  "entrypoint": "builtin:cp03.runtime.demo_morph",
+  "capabilities": ["synthetic_morph_preview"],
+  "file_access": "bundled_fixture_only",
+  "network": false,
+  "writes": false
+}

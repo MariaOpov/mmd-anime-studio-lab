@@ -1,0 +1,11 @@
+{
+  "id": "org.mmdstudio.motion-lab",
+  "name": "Motion Lab",
+  "version": "0.4.0-dev",
+  "api_version": "0.1",
+  "entrypoint": "builtin:cp03.runtime.demo_motion",
+  "capabilities": ["synthetic_motion_diagnostics"],
+  "file_access": "bundled_fixture_only",
+  "network": false,
+  "writes": false
+}

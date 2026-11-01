@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+# runtime evidence, private assets and local settings
+Evidence/
+*.log
+.env
+.env.*
+.local/
+*.pmx
+*.pmd
+*.vmd
+*.vpd
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.fbx
+*.blend
+!src/mmd_lab/demo_synthetic/SYNTHETIC_DEMO.pmx
+!src/mmd_lab/demo_synthetic/SYNTHETIC_DEMO.vmd

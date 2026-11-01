@@ -1,0 +1,10 @@
+{
+  "fixture": "LAB_CP03_SYNTHETIC_MORPH_OFFSETS_ONLY",
+  "vertex_count": 6,
+  "morphs": [
+    {"name": "smile", "offsets": [{"vertex": 1, "delta": [0.1, 0.2, 0.0]}, {"vertex": 2, "delta": [-0.1, 0.2, 0.0]}]},
+    {"name": "cheek_raise", "offsets": [{"vertex": 1, "delta": [0.0, 0.15, 0.0]}]},
+    {"name": "blink", "offsets": [{"vertex": 3, "delta": [0.0, -0.3, 0.0]}, {"vertex": 4, "delta": [0.0, -0.3, 0.0]}]},
+    {"name": "counter_smile", "offsets": [{"vertex": 1, "delta": [-0.1, -0.2, 0.0]}]}
+  ]
+}

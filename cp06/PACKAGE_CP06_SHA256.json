@@ -1,0 +1,61 @@
+{
+  "checkpoint": "LAB_CP06",
+  "mode": "OFFLINE_ADD_ONLY_SYNTHETIC",
+  "files": [
+    {
+      "path": "RUN_CP06_DEMO.cmd",
+      "bytes": 155,
+      "sha256": "3b52183cf191c12aaa2017da2028ba47df121008a6922eb3260c7429cc55d5f6"
+    },
+    {
+      "path": "RUN_CP06_QA.cmd",
+      "bytes": 153,
+      "sha256": "aea4f6c166bde7a3cd280ffb5bd79154409d31484ad7d0feaa4d50e8a6960bd5"
+    },
+    {
+      "path": "cp06/README_CP06.txt",
+      "bytes": 868,
+      "sha256": "bcf2cfff3a0d0df708651349ac82f4506a423f262704a61fce929790888d823d"
+    },
+    {
+      "path": "cp06/__init__.py",
+      "bytes": 113,
+      "sha256": "8c985c06ea25bd5fc5bd530aeac05e6b943f4efcd49b3584c3b4f4c1e7af6ebb"
+    },
+    {
+      "path": "cp06/catalog.py",
+      "bytes": 1237,
+      "sha256": "a9405e6077e66b5712e411e6474d0da3956f1b9e76dc3f25a03341b963dbdd64"
+    },
+    {
+      "path": "cp06/cli.py",
+      "bytes": 1463,
+      "sha256": "02ca055a9bc037e94e3b9610386112f04b5f7389b507b5d337959f8d742dbefa"
+    },
+    {
+      "path": "cp06/graph.py",
+      "bytes": 2022,
+      "sha256": "ed75ed2f283ca67a4faad3759eea370dec56e0b22d64a49a3bb4594bc30b6a7a"
+    },
+    {
+      "path": "cp06/lifecycle.py",
+      "bytes": 4877,
+      "sha256": "95a8faef5f566f7faacd8e77fa3356319010b996c37e5a5b36a0e0c59a71615f"
+    },
+    {
+      "path": "cp06/runner.py",
+      "bytes": 3533,
+      "sha256": "6a1b94b9963d25d79e38a1cb1103a60e278bd38b8e0ba489e33763eddfabf93a"
+    },
+    {
+      "path": "cp06/tests/__init__.py",
+      "bytes": 24,
+      "sha256": "9903d1dee6ccaaeaaac654febb455a7cd01a5a6fab54359a2b3388f52debea2a"
+    },
+    {
+      "path": "cp06/tests/test_cp06.py",
+      "bytes": 6569,
+      "sha256": "e32614e5fab610f8a303dc9251fa5f6332da3c19cf3b4d9e18de842128fe6e6c"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "checkpoint": "LAB_CP10",
+  "mode": "OFFLINE_SOURCE_EXPORT_NO_GIT_WRITE",
+  "files": [
+    {
+      "path": ".github/workflows/ci-lab-all.yml",
+      "bytes": 941,
+      "sha256": "7dab7aa37fa2987d840514aa3d4894996b9bb4e9ce958927913526d4cf4a14a1"
+    },
+    {
+      "path": "RUN_CP10_SOURCE_AUDIT.cmd",
+      "bytes": 202,
+      "sha256": "fca10bd0b8ab67a00f4043a01f1a90193b019d94869674a45fa92e2dcb319898"
+    },
+    {
+      "path": "cp10/README_CP10.txt",
+      "bytes": 258,
+      "sha256": "b9dcf0a4d1adf8bfa2dc2dd2a49bbc673e5120596a7125b0fe4b13f340fd3c4d"
+    },
+    {
+      "path": "cp10/__init__.py",
+      "bytes": 74,
+      "sha256": "b803338f12eda10099e42f6c0d297234cb251021af759d3ab3fdd9d012fba383"
+    },
+    {
+      "path": "cp10/cli.py",
+      "bytes": 1326,
+      "sha256": "08d6c9f294ca5ee4b745a50ef0d3755513cee462c7a186f928879ca5af091139"
+    },
+    {
+      "path": "cp10/repo_export.py",
+      "bytes": 8033,
+      "sha256": "78e9ac335c5a1e67006a0aea84c52cd4fed5ad4a3567c747f5d7219f042937ec"
+    },
+    {
+      "path": "cp10/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cp10/tests/test_cp10.py",
+      "bytes": 4113,
+      "sha256": "49379c644335682998d2bb67c2d6cfa73cb57322b8e3a8f7abb9a4fb6daae352"
+    },
+    {
+      "path": "docs/LAB_CP10_REPO_BOOTSTRAP.md",
+      "bytes": 1158,
+      "sha256": "b44491bcc4c081d2055a1d3d89f6ba32d2f8e517bfd43be1a46a351f7a966e6b"
+    }
+  ]
+}

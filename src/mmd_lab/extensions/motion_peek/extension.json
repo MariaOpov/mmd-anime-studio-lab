@@ -1,0 +1,10 @@
+{
+  "id": "org.mmdstudio.motion-peek",
+  "name": "Motion Peek",
+  "version": "0.1.0-r0",
+  "api_version": "0.1",
+  "entrypoint": "builtin:motion_peek",
+  "capabilities": ["read_motion"],
+  "supported_suffixes": [".vmd"],
+  "description": "Read-only VMD 0002 bone and morph timeline overview; other tracks not parsed."
+}

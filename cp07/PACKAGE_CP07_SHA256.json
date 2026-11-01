@@ -1,0 +1,56 @@
+{
+  "checkpoint": "LAB_CP07",
+  "mode": "OFFLINE_ADD_ONLY_SYNTHETIC",
+  "files": [
+    {
+      "path": "RUN_CP07_DEMO.cmd",
+      "bytes": 155,
+      "sha256": "6812363fbb7772b81d106d74ef0f9d2c608bb372579e00978fb5f6f0d798036b"
+    },
+    {
+      "path": "RUN_CP07_QA.cmd",
+      "bytes": 153,
+      "sha256": "715b14f85be41839514890ed0883399d5a567f7f222d7e12928f4ca0bf182640"
+    },
+    {
+      "path": "cp07/README_CP07.txt",
+      "bytes": 715,
+      "sha256": "3b0ff0a49fd216395fda4beb6a5fc47d2aedcc2a6b51651f59d635cd6d3b0237"
+    },
+    {
+      "path": "cp07/__init__.py",
+      "bytes": 105,
+      "sha256": "3d3c9dc8c560784e75414d15674d6b492ececbb359a82049ab9562f8359c26df"
+    },
+    {
+      "path": "cp07/cli.py",
+      "bytes": 1135,
+      "sha256": "5623f6addb417b40c68b9772aca4ac488ead28cb80bc782b2e6abc325058453c"
+    },
+    {
+      "path": "cp07/planner.py",
+      "bytes": 1266,
+      "sha256": "ea81e18bb3eca3dcb7c037d9c36898b91c50b4ea18abd4a38a624008a7874d1c"
+    },
+    {
+      "path": "cp07/runner.py",
+      "bytes": 3324,
+      "sha256": "91ac02fd55fed0a4f5ddc3011b879505ef84d49dbfa9cf3a309123b90da54c8f"
+    },
+    {
+      "path": "cp07/tests/__init__.py",
+      "bytes": 27,
+      "sha256": "ef8bee2b641851363383c64ea8c68005ea2d0b4879bcbf691853c1020bfd3a66"
+    },
+    {
+      "path": "cp07/tests/test_cp07.py",
+      "bytes": 6124,
+      "sha256": "46e74977bb896cb061371b6efa4f35159580d59318142f99b40454ac0757e595"
+    },
+    {
+      "path": "cp07/transaction.py",
+      "bytes": 3998,
+      "sha256": "482bff3b63f702e790c128df26d53dab735d14b1c0b34f14b85f35a1af7e4689"
+    }
+  ]
+}

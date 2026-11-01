@@ -1,0 +1,61 @@
+{
+  "checkpoint": "LAB_CP09",
+  "mode": "OFFLINE_ADD_ONLY_SYNTHETIC",
+  "files": [
+    {
+      "path": "RUN_CP09_DEMO.cmd",
+      "bytes": 264,
+      "sha256": "e564c277c45e2cb2b1933420a4cd6e9f0e64439f11c34d1f4abbfd9be4a04fd6"
+    },
+    {
+      "path": "RUN_CP09_QA.cmd",
+      "bytes": 173,
+      "sha256": "c75c4f962dd1bef62b45cec30c5dbd7e36ba7f7f4ee6314bb44f96c708f9dfa3"
+    },
+    {
+      "path": "cp09/README_CP09.txt",
+      "bytes": 843,
+      "sha256": "10f98c460187a2a2604235ccfb4bb6de80aabc83b55e4646c5bfd9d242d530f4"
+    },
+    {
+      "path": "cp09/__init__.py",
+      "bytes": 78,
+      "sha256": "fa754ed00a043edf40628d5266ba9c973fb50c9584b483fd3091179739f150f4"
+    },
+    {
+      "path": "cp09/api.py",
+      "bytes": 2474,
+      "sha256": "14b723fbfbe2f0a3d0a7f74c91ced887bc1359d5187088c586f3d6ffce2cdd1d"
+    },
+    {
+      "path": "cp09/cli.py",
+      "bytes": 1177,
+      "sha256": "6c3aa138d12c22d86e78fb1ed948c93642bbe79ed7172291718b779bdb3f2011"
+    },
+    {
+      "path": "cp09/contract.json",
+      "bytes": 399,
+      "sha256": "9063582449a6a973da9cf00d0f13094945a04cfc55ebeb4c5c0c115060045463"
+    },
+    {
+      "path": "cp09/readiness.py",
+      "bytes": 4663,
+      "sha256": "5225bdaafcbf1456117490a984abf8fe0fa690874492a0ae0ba207ef30a1271d"
+    },
+    {
+      "path": "cp09/runner.py",
+      "bytes": 151,
+      "sha256": "eb0fa2a19d60d8e543926a8887dfa0f6734cc24a6798efe9e55f1c2e3b96d412"
+    },
+    {
+      "path": "cp09/tests/__init__.py",
+      "bytes": 58,
+      "sha256": "b7d932808387192d2f41220f8037f9f7ebf0c46880bc87318fb64568021d465e"
+    },
+    {
+      "path": "cp09/tests/test_cp09.py",
+      "bytes": 7158,
+      "sha256": "22ca9eaa9a0793debc55f19ca0bfa5d94b2ec768b989fdb17be2e709d0eb9821"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "checkpoint": "LAB_CP08",
+  "mode": "OFFLINE_ADD_ONLY_SYNTHETIC",
+  "files": [
+    {
+      "path": "RUN_CP08_DEMO.cmd",
+      "bytes": 155,
+      "sha256": "a295208e92d356f726c9cb1ed3d8358449b9ddaf638b66f846c1ab87b8a4b5d3"
+    },
+    {
+      "path": "RUN_CP08_QA.cmd",
+      "bytes": 153,
+      "sha256": "6249c1f41a24618200a3c2865f21663ff7f780805c77d2694df2a0c9c4149b1d"
+    },
+    {
+      "path": "cp08/README_CP08.txt",
+      "bytes": 702,
+      "sha256": "c9fd060ca8781840a2e10b46fb00055bb5323d53117d163d4e660da27ff4127c"
+    },
+    {
+      "path": "cp08/__init__.py",
+      "bytes": 106,
+      "sha256": "2c634159b47cf61f94dc43b313852a5f0fb129d1718e1fbffed0bca97d92a482"
+    },
+    {
+      "path": "cp08/cli.py",
+      "bytes": 1589,
+      "sha256": "36e868d6bace245abd0f5354dd79b18ca039d9289e5060ba5e61a83f332da580"
+    },
+    {
+      "path": "cp08/guard.py",
+      "bytes": 5115,
+      "sha256": "5ad5a5048aeec1353937b5fd108272c8aaf541561c19a343c5f02df72e66a855"
+    },
+    {
+      "path": "cp08/runner.py",
+      "bytes": 3447,
+      "sha256": "1da0dd05b0f43a003afd095a751453629ee279d5718899812f0bc0f77f175d73"
+    },
+    {
+      "path": "cp08/tests/__init__.py",
+      "bytes": 29,
+      "sha256": "db06c46247c7a24ee395a9838d661e0891ce7937e4b72b591e8ee52a94d5fe02"
+    },
+    {
+      "path": "cp08/tests/test_cp08.py",
+      "bytes": 6993,
+      "sha256": "14dd5bbec728da651ca5414f6585328d8be0022344e22e10157fe921e0cbf5ae"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "checkpoint": "LAB_CP04",
+  "mode": "OFFLINE_ADD_ONLY_SYNTHETIC",
+  "files": [
+    {
+      "path": "RUN_CP04_DEMO.cmd",
+      "bytes": 111,
+      "sha256": "de98174a883109ef56bf65310b6ba1028f8058bb8031f4b38ac241e1d6a26711"
+    },
+    {
+      "path": "RUN_CP04_QA.cmd",
+      "bytes": 109,
+      "sha256": "68022ca50b8be95224bc47817039bdd4c567ff0cee1bf238ae7171a5eb6e34f0"
+    },
+    {
+      "path": "cp04/README_CP04.txt",
+      "bytes": 865,
+      "sha256": "45368c510a901431ae0a983041730c944f945d542e34773b47a32f607792cd40"
+    },
+    {
+      "path": "cp04/__init__.py",
+      "bytes": 103,
+      "sha256": "fd65e4baea6d5f9222f28930fcca7372a6c1d1d353a6e6f7c99115d7cb4f3ffa"
+    },
+    {
+      "path": "cp04/cli.py",
+      "bytes": 737,
+      "sha256": "8593d6cde95f4f6fc0d25b8a2b689634ab0400f29c928328d0bef01bdca159e0"
+    },
+    {
+      "path": "cp04/controller.py",
+      "bytes": 4300,
+      "sha256": "2d545da4a416ca635be398b2eb845c61325f917e12847d1cefd2cb5724c3bc13"
+    },
+    {
+      "path": "cp04/manifest_checks.py",
+      "bytes": 2055,
+      "sha256": "51b69f3f9c035cca2970a5639ed8c4bb7a131e302d082ef94ad208c682f55dea"
+    },
+    {
+      "path": "cp04/manifests/motion_lab.json",
+      "bytes": 297,
+      "sha256": "6b180aed9c680b459af8ee5aeaa60ab846cf0f1d01e037043805950a82b140e3"
+    },
+    {
+      "path": "cp04/manifests/smart_morph_plus.json",
+      "bytes": 299,
+      "sha256": "30ccf16d71406d51f03b3a98be1384435930eb239839890d57153163ef71ced9"
+    },
+    {
+      "path": "cp04/registry.py",
+      "bytes": 2011,
+      "sha256": "f134daddd99883548d310483d43b5e1ec9702c53b53a7d8f61f3a8b620e72c4d"
+    },
+    {
+      "path": "cp04/runner.py",
+      "bytes": 3226,
+      "sha256": "216df9694d847a9df2a005d3269197864a1b8713b49e194867d71f1c9b371f79"
+    },
+    {
+      "path": "cp04/tests/__init__.py",
+      "bytes": 37,
+      "sha256": "38828e1b0c68b51742779a103b9031f302991af93490f7394cd8e177c45dfb4a"
+    },
+    {
+      "path": "cp04/tests/test_cp04.py",
+      "bytes": 6573,
+      "sha256": "a486904fdd3b2376711bd6d2efbbf627e821a0c24d534d6079cdf9569e7dbee7"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "checkpoint": "LAB_CP05",
+  "mode": "OFFLINE_ADD_ONLY_SYNTHETIC",
+  "files": [
+    {
+      "path": "RUN_CP05_DEMO.cmd",
+      "bytes": 155,
+      "sha256": "45de0151b5154896736dd51dacba2daa3130235ae7626206254ed0b83bbab8d9"
+    },
+    {
+      "path": "RUN_CP05_QA.cmd",
+      "bytes": 153,
+      "sha256": "9a4813b6738a6faa1f81ca2cf6cd978508703f32be0e27f96e35abc1d3804039"
+    },
+    {
+      "path": "cp05/README_CP05.txt",
+      "bytes": 827,
+      "sha256": "0543d787e1960a8db78e644fb90075485676a7e9711d3c82a21cbca755f9ff6f"
+    },
+    {
+      "path": "cp05/__init__.py",
+      "bytes": 100,
+      "sha256": "832ec4a0a53774c2ba8a8c50d5ec229392793a4ea4ff1b31c1b13c2c3571fb0a"
+    },
+    {
+      "path": "cp05/broker.py",
+      "bytes": 5602,
+      "sha256": "f3cd345f89c73711eac2651a1bb9ef6dbe0d26b83bb5267d679d829d0aac29ac"
+    },
+    {
+      "path": "cp05/cli.py",
+      "bytes": 1303,
+      "sha256": "bab3f7169eb37628a929a0f92d48cedd48c8f978dc8dc59359a5b50338aeb589"
+    },
+    {
+      "path": "cp05/contract.py",
+      "bytes": 1536,
+      "sha256": "b78e7cac1c368abb58a6ff44e63bde672c70320e18ee3ed690c3d0fad748c5a5"
+    },
+    {
+      "path": "cp05/runner.py",
+      "bytes": 3258,
+      "sha256": "3d7d906b9abe71a5a9689863f89a714d37ecdc1ea1044ad8f5fdf366b12767ac"
+    },
+    {
+      "path": "cp05/sdk_contract.json",
+      "bytes": 353,
+      "sha256": "b4b938a55cf6d7c9e9172e2003bf05e7e355985d104809549f4f95b1618786ce"
+    },
+    {
+      "path": "cp05/tests/__init__.py",
+      "bytes": 27,
+      "sha256": "aec8f5d0e46ae62d69de53776dffb9f3260eccdb3d0c701d016b0612ccaea994"
+    },
+    {
+      "path": "cp05/tests/test_cp05.py",
+      "bytes": 6486,
+      "sha256": "6b4b2a4690c83fe130fc9c3d765a9e7ebb7e6edff0be805b29789144a995d32e"
+    }
+  ]
+}

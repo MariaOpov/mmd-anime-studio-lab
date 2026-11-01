@@ -1,0 +1,10 @@
+{
+  "id": "org.mmdstudio.model-doctor",
+  "name": "MMD Doctor",
+  "version": "0.1.0-r0",
+  "api_version": "0.1",
+  "entrypoint": "builtin:model_doctor",
+  "capabilities": ["read_model"],
+  "supported_suffixes": [".pmx"],
+  "description": "Read-only PMX header, vertices, face indices and texture path check. Not a full validator."
+}

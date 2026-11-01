@@ -1,0 +1,14 @@
+{
+  "checkpoint": "LAB_CP05",
+  "sdk_version": "0.1",
+  "operations": ["catalog", "grant", "revoke", "execute", "set_enabled"],
+  "security": {
+    "default_grant": "deny",
+    "scope": "bundled_synthetic_only",
+    "network": false,
+    "real_assets": false,
+    "file_writes": false,
+    "dynamic_imports": false,
+    "grant_persistence": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "api_version": "0.1",
+  "checkpoint": "LAB_CP09",
+  "transport": "IN_PROCESS_PYTHON_ONLY",
+  "commands": ["status", "readiness", "plan morph", "plan motion", "plan both", "run morph", "run motion", "run both"],
+  "extension_count": 4,
+  "real_assets": false,
+  "network": false,
+  "writes": false,
+  "qt_required": false,
+  "studio_bridge": "NOT_CONNECTED",
+  "external_plugin_loading": false
+}

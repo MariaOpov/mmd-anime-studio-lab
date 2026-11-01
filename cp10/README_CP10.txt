@@ -1,0 +1,1 @@
+LAB-CP10: exact pinned source audit + reproducible clean snapshot for a NEW GitHub repository. No Git init/add/commit/push, no network, no Qt, no real assets. Exports only allowlisted source bytes after verifying SHA256. Never touches MMD Anime Studio CP20.

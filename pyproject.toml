@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel>=0.41"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mmd-anime-studio-lab"
+version = "0.1.0"
+description = "Offline, read-only MMD Lab extension host and PMX/VMD inspectors"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: Microsoft :: Windows",
+]
+
+[project.scripts]
+mmd-lab = "mmd_lab.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.9"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["mmd_lab*"]
+
+[tool.setuptools.package-data]
+mmd_lab = ["extensions/*/extension.json", "demo_synthetic/*.pmx", "demo_synthetic/*.vmd", "demo_synthetic/*.txt"]
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

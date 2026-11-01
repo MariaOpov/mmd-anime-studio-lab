@@ -1,0 +1,67 @@
+{
+  "checkpoint": "LAB_CP02",
+  "base_checkpoint": "LAB_CP01",
+  "cp01_manifest_sha256": "dafb4eac987d6a3422df79c7d48e787a76dfafd70dcd5841bb9a252b00ce4add",
+  "files": [
+    {
+      "path": "RUN_CP02_GUI.cmd",
+      "bytes": 217,
+      "sha256": "0593e14a20cfac12eb90484d1242fb4f8b5fbc61e70767abd650d82685a44714"
+    },
+    {
+      "path": "RUN_CP02_QA.cmd",
+      "bytes": 215,
+      "sha256": "541d6cc1ff2583fbd2812cfaea79784d43d4a98de5084d4f5e64b3ce34c4dca4"
+    },
+    {
+      "path": "cp02/README_CP02.txt",
+      "bytes": 1029,
+      "sha256": "de5db37a20ae96e16d6ed16ecec4f85be6b1a409cc7218959f95d6479169232e"
+    },
+    {
+      "path": "cp02/__init__.py",
+      "bytes": 108,
+      "sha256": "fe0edc09f754bed9399d9050c303d0a27ff3ea9d75602683e1e312bb3caf9040"
+    },
+    {
+      "path": "cp02/controller.py",
+      "bytes": 2157,
+      "sha256": "7ed5ef5eee3d5121a33391e58c4f70568bb98655266f48fc209d8c79d11703e3"
+    },
+    {
+      "path": "cp02/desktop.py",
+      "bytes": 3607,
+      "sha256": "43472856d51106b3370c946cd1639fef85cba8130e13a9cf5c89a5e6b3bb90f6"
+    },
+    {
+      "path": "cp02/runner.py",
+      "bytes": 5591,
+      "sha256": "7c9c74bf2b6e7b08a26241366e48983435bb1ed9368c6e237514868d1e70e83d"
+    },
+    {
+      "path": "cp02/tests/__init__.py",
+      "bytes": 44,
+      "sha256": "fc44c1586033f6fe6f29c7d37750a6968315ab4b882260257a60ad071f9d138e"
+    },
+    {
+      "path": "cp02/tests/test_cp02.py",
+      "bytes": 4217,
+      "sha256": "f5426c71f83d62c46a6a940b20334836b1f739bda8ce8064f34100ccfb13726e"
+    },
+    {
+      "path": "cp02/web/app.js",
+      "bytes": 4568,
+      "sha256": "f3d5df70b0fb48fdda9580070a8486af66439491c07b4169e7dfec2fefb74a16"
+    },
+    {
+      "path": "cp02/web/index.html",
+      "bytes": 3727,
+      "sha256": "1be862e78a076ef7a9a1e2e94a0fab9a5ca39b34b67677da9b3a08b119ca1b02"
+    },
+    {
+      "path": "cp02/web/style.css",
+      "bytes": 5228,
+      "sha256": "0474ad7f481a515b924a2abb841b3453b5137a28308b08cacb792657e877e091"
+    }
+  ]
+}
